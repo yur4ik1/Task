@@ -15,7 +15,7 @@ const TaskBlock = (props) => {
 
   const handleDelete = () => {
     // Delete the task from mockapi.io
-    fetch(`https://63b882346f4d5660c6d855a4.mockapi.io/items/${props.id}`, {
+    fetch(`https://63b9ba8f4482143a3f19fcf8.mockapi.io/tasks/${props.id}`, {
       headers: { 'Content-Type': 'application/json' },
       method: 'DELETE',
     })

@@ -8,7 +8,7 @@ const TaskScheduler = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://63b882346f4d5660c6d855a4.mockapi.io/items')
+    fetch('https://63b9ba8f4482143a3f19fcf8.mockapi.io/tasks')
       .then((response) => response.json())
       .then((data) => {
         setTasks(data);

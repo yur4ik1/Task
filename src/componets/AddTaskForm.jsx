@@ -19,7 +19,7 @@ const AddTaskForm = (props) => {
     event.preventDefault();
     if (title) {
       // Save the new task to mockapi.io
-      fetch('https://63b882346f4d5660c6d855a4.mockapi.io/items', {
+      fetch('https://63b9ba8f4482143a3f19fcf8.mockapi.io/tasks', {
         headers: { 'Content-Type': 'application/json' },
         method: 'POST',
         body: JSON.stringify({ title, description }),
